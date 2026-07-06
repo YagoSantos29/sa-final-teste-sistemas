@@ -1,0 +1,7 @@
+# dependências e builds de todas as versões
+**/node_modules
+**/dist
+**/dist-ssr
+**/coverage
+*.local
+.DS_Store

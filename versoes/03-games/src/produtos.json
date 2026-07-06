@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nome": "Aventura Estelar",
+    "preco": 199.9,
+    "nota": 5,
+    "categoria": "Ação",
+    "emEstoque": true,
+    "imagens": ["Capa do jogo", "Cena de gameplay"],
+    "descricao": "Jogo de ação e exploração espacial.",
+    "avaliacoes": "Nota média dos jogadores: 5 de 5 estrelas."
+  },
+  {
+    "id": 2,
+    "nome": "Fazenda Feliz",
+    "preco": 89.9,
+    "nota": 4,
+    "categoria": "Simulação",
+    "emEstoque": true,
+    "imagens": ["Capa do jogo", "Tela da fazenda"],
+    "descricao": "Simulador relaxante de cuidar de uma fazenda.",
+    "avaliacoes": "Nota média dos jogadores: 4 de 5 estrelas."
+  },
+  {
+    "id": 3,
+    "nome": "Corrida Turbo",
+    "preco": 149.9,
+    "nota": 4,
+    "categoria": "Corrida",
+    "emEstoque": false,
+    "imagens": ["Capa do jogo", "Carro na pista"],
+    "descricao": "Jogo de corrida com vários carros e pistas.",
+    "avaliacoes": "Nota média dos jogadores: 4 de 5 estrelas."
+  },
+  {
+    "id": 4,
+    "nome": "Quebra-Cabeça Mágico",
+    "preco": 49.9,
+    "nota": 3,
+    "categoria": "Puzzle",
+    "emEstoque": true,
+    "imagens": ["Capa do jogo", "Tela de puzzle"],
+    "descricao": "Desafios de lógica em fases coloridas.",
+    "avaliacoes": "Nota média dos jogadores: 3 de 5 estrelas."
+  },
+  {
+    "id": 5,
+    "nome": "Reino Medieval",
+    "preco": 249.9,
+    "nota": 5,
+    "categoria": "RPG",
+    "emEstoque": true,
+    "imagens": ["Capa do jogo", "Mapa do reino"],
+    "descricao": "RPG de aventura em um mundo medieval.",
+    "avaliacoes": "Nota média dos jogadores: 5 de 5 estrelas."
+  },
+  {
+    "id": 6,
+    "nome": "Futebol 2025",
+    "preco": 179.9,
+    "nota": 3,
+    "categoria": "Esporte",
+    "emEstoque": false,
+    "imagens": ["Capa do jogo", "Jogadores em campo"],
+    "descricao": "Simulador de futebol com times atualizados.",
+    "avaliacoes": "Nota média dos jogadores: 3 de 5 estrelas."
+  }
+]

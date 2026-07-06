@@ -1,0 +1,70 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Noites de Blues",
+      "preco": 129.9,
+      "nota": 5,
+      "categoria": "Blues",
+      "emEstoque": true,
+      "imagens": ["Capa do disco", "Selo do vinil"],
+      "descricao": "Coletânea de blues clássico em vinil 180g.",
+      "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+    },
+    {
+      "id": 2,
+      "nome": "Samba Raiz",
+      "preco": 99.9,
+      "nota": 4,
+      "categoria": "Samba",
+      "emEstoque": true,
+      "imagens": ["Capa do disco", "Encarte aberto"],
+      "descricao": "Grandes sambas em edição especial de vinil.",
+      "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+    },
+    {
+      "id": 3,
+      "nome": "Rock dos Anos 80",
+      "preco": 149.9,
+      "nota": 5,
+      "categoria": "Rock",
+      "emEstoque": false,
+      "imagens": ["Capa do disco", "Detalhe da capa"],
+      "descricao": "Hits do rock oitentista remasterizados.",
+      "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+    },
+    {
+      "id": 4,
+      "nome": "Jazz Instrumental",
+      "preco": 119.9,
+      "nota": 4,
+      "categoria": "Jazz",
+      "emEstoque": true,
+      "imagens": ["Capa do disco", "Selo do vinil"],
+      "descricao": "Jazz instrumental para ouvir com calma.",
+      "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+    },
+    {
+      "id": 5,
+      "nome": "MPB Essencial",
+      "preco": 89.9,
+      "nota": 3,
+      "categoria": "MPB",
+      "emEstoque": true,
+      "imagens": ["Capa do disco", "Encarte com letras"],
+      "descricao": "Seleção essencial da música popular brasileira.",
+      "avaliacoes": "Nota média dos clientes: 3 de 5 estrelas."
+    },
+    {
+      "id": 6,
+      "nome": "Eletrônica Moderna",
+      "preco": 139.9,
+      "nota": 4,
+      "categoria": "Eletrônica",
+      "emEstoque": false,
+      "imagens": ["Capa do disco", "Arte da capa"],
+      "descricao": "Faixas de música eletrônica em vinil colorido.",
+      "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+    }
+  ]
+}
