@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { carregarProdutos } from "../services/api";
 
-// componentes da página (ajuste se estiverem em outra pasta)
+
 import BannerPromocional from "../components/layout/BannerPromocional";
 import BarraBusca from "../components/filtros/BarraBusca.jsx";
 import FiltroPreco from "../components/filtros/FiltroPreco.jsx";
@@ -12,11 +12,11 @@ import Avaliacao from "../components/produtos/Avaliacao.jsx";
 import BadgeEstoque from "../components/produtos/BadgeEstoque.jsx";
 import BotaoAdicionarCarrinho from "../components/produtos/BotaoAdicionarCarrinho.jsx";
 
-// componentes de produtos
+
 import SeloFreteGratis from "../components/produtos/SeloFreteGratis";
 import TagCategoria from "../components/produtos/TagCategoria";
 
-// HomePage — vitrine da loja
+
 export default function HomePage({ aoAdicionar }) {
   const [produtos, setProdutos] = useState([]);
 
