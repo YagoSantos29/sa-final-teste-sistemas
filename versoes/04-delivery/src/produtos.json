@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "nome": "Pizza Margherita",
+    "preco": 45.9,
+    "nota": 5,
+    "categoria": "Pizzas",
+    "emEstoque": true,
+    "imagens": ["Foto da pizza", "Pizza fatiada"],
+    "descricao": "Pizza com molho de tomate, muçarela e manjericão.",
+    "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+  },
+  {
+    "id": 2,
+    "nome": "Hambúrguer Artesanal",
+    "preco": 32.5,
+    "nota": 4,
+    "categoria": "Lanches",
+    "emEstoque": true,
+    "imagens": ["Foto do hambúrguer", "Corte do lanche"],
+    "descricao": "Hambúrguer artesanal com queijo e bacon.",
+    "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+  },
+  {
+    "id": 3,
+    "nome": "Salada Caesar",
+    "preco": 26.9,
+    "nota": 4,
+    "categoria": "Saladas",
+    "emEstoque": true,
+    "imagens": ["Foto da salada", "Detalhe dos ingredientes"],
+    "descricao": "Salada com alface, croutons e molho caesar.",
+    "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+  },
+  {
+    "id": 4,
+    "nome": "Lasanha à Bolonhesa",
+    "preco": 38.0,
+    "nota": 5,
+    "categoria": "Massas",
+    "emEstoque": false,
+    "imagens": ["Foto da lasanha", "Porção servida"],
+    "descricao": "Lasanha com molho bolonhesa e queijo gratinado.",
+    "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+  },
+  {
+    "id": 5,
+    "nome": "Suco Natural",
+    "preco": 12.9,
+    "nota": 3,
+    "categoria": "Bebidas",
+    "emEstoque": true,
+    "imagens": ["Foto do suco", "Copo servido"],
+    "descricao": "Suco natural de frutas da estação.",
+    "avaliacoes": "Nota média dos clientes: 3 de 5 estrelas."
+  },
+  {
+    "id": 6,
+    "nome": "Brownie com Sorvete",
+    "preco": 19.9,
+    "nota": 4,
+    "categoria": "Sobremesas",
+    "emEstoque": false,
+    "imagens": ["Foto do brownie", "Sobremesa montada"],
+    "descricao": "Brownie quente com bola de sorvete de creme.",
+    "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+  }
+]
