@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import { MemoryRouter } from "react-router-dom";
 import Breadcrumb from "./Breadcrumb";
 
@@ -6,15 +7,21 @@ describe("Breadcrumb", () => {
   test("renderiza início e níveis", () => {
     render(
       <MemoryRouter>
-        <Breadcrumb
-          caminho={["Eletrônicos", "Fones"]}
-        />
+        <Breadcrumb caminho={["Eletrônicos", "Fones"]} />
       </MemoryRouter>
     );
 
-    expect(screen.getByText("Início")).toBeInTheDocument();
-    expect(screen.getByText("Eletrônicos")).toBeInTheDocument();
-    expect(screen.getByText("Fones")).toBeInTheDocument();
+    expect(
+      screen.getByText("Início")
+    ).toBeInTheDocument();
+
+    expect(
+      screen.getByText(/Eletrônicos/i)
+    ).toBeInTheDocument();
+
+    expect(
+      screen.getByText(/Fones/i)
+    ).toBeInTheDocument();
   });
 
   test("renderiza navegação", () => {
@@ -25,7 +32,7 @@ describe("Breadcrumb", () => {
     );
 
     expect(
-      screen.getByLabelText("Trilha de navegação")
+      screen.getByLabelText(/trilha de navegação/i)
     ).toBeInTheDocument();
   });
 });

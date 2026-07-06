@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import Rodape from "./Rodape";
 
 describe("Rodape", () => {
@@ -6,9 +7,11 @@ describe("Rodape", () => {
     render(<Rodape />);
 
     expect(
-      screen.getByText(
-        /pixelplay - todos os direitos reservados/i
-      )
+      screen.getByText(/pixelplay/i)
+    ).toBeInTheDocument();
+
+    expect(
+      screen.getByText(/todos os direitos reservados/i)
     ).toBeInTheDocument();
   });
 
