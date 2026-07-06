@@ -18,7 +18,10 @@ export default function GaleriaImagens({ imagens }) {
         ‹
       </button>
 
-      <img src="" alt={imagens[indice]} />
+      <img
+        src={imagens[indice]}
+        alt={imagens[indice]}
+      />
 
       <button aria-label="Próxima imagem" onClick={proxima}>
         ›
