@@ -1,0 +1,70 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Fone Bluetooth",
+      "preco": 199.9,
+      "nota": 4,
+      "categoria": "Eletrônicos",
+      "emEstoque": true,
+      "imagens": ["Fone visto de frente", "Fone visto de lado", "Fone na caixa"],
+      "descricao": "Fone sem fio com cancelamento de ruído e 20 horas de bateria.",
+      "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta Básica",
+      "preco": 49.9,
+      "nota": 5,
+      "categoria": "Vestuário",
+      "emEstoque": true,
+      "imagens": ["Camiseta na frente", "Camiseta nas costas"],
+      "descricao": "Camiseta 100% algodão, disponível em vários tamanhos.",
+      "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+    },
+    {
+      "id": 3,
+      "nome": "Caneca Térmica",
+      "preco": 79.5,
+      "nota": 3,
+      "categoria": "Casa",
+      "emEstoque": false,
+      "imagens": ["Caneca fechada", "Caneca aberta"],
+      "descricao": "Caneca que mantém a bebida quente por até 6 horas.",
+      "avaliacoes": "Nota média dos clientes: 3 de 5 estrelas."
+    },
+    {
+      "id": 4,
+      "nome": "Mochila Escolar",
+      "preco": 129.0,
+      "nota": 4,
+      "categoria": "Acessórios",
+      "emEstoque": true,
+      "imagens": ["Mochila fechada", "Compartimento aberto"],
+      "descricao": "Mochila resistente com espaço para notebook de 15 polegadas.",
+      "avaliacoes": "Nota média dos clientes: 4 de 5 estrelas."
+    },
+    {
+      "id": 5,
+      "nome": "Teclado Mecânico",
+      "preco": 299.9,
+      "nota": 5,
+      "categoria": "Eletrônicos",
+      "emEstoque": true,
+      "imagens": ["Teclado completo", "Detalhe das teclas"],
+      "descricao": "Teclado mecânico com iluminação e switches silenciosos.",
+      "avaliacoes": "Nota média dos clientes: 5 de 5 estrelas."
+    },
+    {
+      "id": 6,
+      "nome": "Luminária de Mesa",
+      "preco": 89.9,
+      "nota": 3,
+      "categoria": "Casa",
+      "emEstoque": false,
+      "imagens": ["Luminária acesa", "Luminária apagada"],
+      "descricao": "Luminária com três níveis de brilho e entrada USB.",
+      "avaliacoes": "Nota média dos clientes: 3 de 5 estrelas."
+    }
+  ]
+}
