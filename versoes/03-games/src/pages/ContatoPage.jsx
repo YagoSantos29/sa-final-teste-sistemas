@@ -1,6 +1,6 @@
 import FormularioNewsletter from "../components/comuns/FormularioNewsletter.jsx"
 
-// ContatoPage — página de contato com inscrição na newsletter.
+
 export default function ContatoPage() {
   function inscrever(email) {
     console.log("Newsletter:", email);

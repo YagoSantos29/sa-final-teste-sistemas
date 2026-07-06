@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 
-// NaoEncontradaPage — mostrada quando a rota não existe (rota coringa "*").
-// Sem props.
 
 export default function NaoEncontradaPage() {
   return (

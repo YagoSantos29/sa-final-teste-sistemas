@@ -16,7 +16,7 @@ import BotaoAdicionarCarrinho from "../components/produtos/BotaoAdicionarCarrinh
 import Abas from "../components/filtros/Abas.jsx";
 import Acordeao from "../components/filtros/Acordeao.jsx";
 
-// ProdutoPage — detalhe de um produto
+
 export default function ProdutoPage({ aoAdicionar }) {
   const { id } = useParams();
   const [produto, setProduto] = useState(null);

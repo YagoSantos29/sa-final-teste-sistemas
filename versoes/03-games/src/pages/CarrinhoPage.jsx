@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import PrecoEtiqueta from "../components/produtos/PrecoEtiqueta";
 import SeletorQuantidade from "../components/produtos/SeletorQuantidade";
 
-// CarrinhoPage — lista os itens que o usuário adicionou ao carrinho.
+
 export default function CarrinhoPage({ itens }) {
   const total = itens.reduce((soma, item) => soma + item.preco, 0);
 

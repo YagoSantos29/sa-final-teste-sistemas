@@ -1,7 +1,6 @@
 import { useState } from "react";
 
-// BotaoVerMais — mostra ou esconde um texto extra ao clicar.
-// Props: texto (string) — o conteúdo que aparece quando está aberto.
+
 
 export default function BotaoVerMais({ texto }) {
   const [aberto, setAberto] = useState(false);
